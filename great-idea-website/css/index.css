@@ -87,14 +87,64 @@ body{
 /* Header Content Styles*/
 .header-content{
 	width: 100%;
+	margin: 30px 0;
 }
 
-.title-container{
+.title-container, .header-content img{
 	display: inline-block;
+	margin: 0 auto;
+	width: 45%;
 	vertical-align: middle;
 }
 
-.header-container img{
-	display: inline-block;
+.header-content img{
+	margin-left: 9%;
 }
+
+.title-container{
+	text-align: center;
+}
+
+.title-container h1{
+	font-size: 50px;
+}
+
+.title-container button{
+	border: 1px solid black;
+	padding: 5px 7%;
+}
+
+/* Body Content Styles */
+.top-section, .bottom-section{
+	margin: 30px 0;
+}
+
+.top-section .content p, .bottom-section .content p{
+	line-height: 1.5;
+}
+
+.top-section .content{
+	display: inline-block;
+	width: 45%;
+}
+
+.displace-top{
+	margin-left: 9%;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.bottom-section .content{
+	display: inline-block;
+	width: 30%;
+}
+
+.displace-bottom{
+	margin-left: 4%;
+}
+
+
+
 
