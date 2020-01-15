@@ -64,3 +64,56 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	padding: 20px 100px;
+	width: 980px;
+}
+
+/* Nav bar styles*/
+.nav-bar{
+	margin-bottom: 50px;
+	/* position: fixed; */
+}
+
+.nav-bar a{
+	padding: 5% 5% 5% 0%;
+	text-decoration: none;
+	color: lightgray;
+}
+
+.logo{
+	vertical-align: middle;
+}
+
+/* .content{
+	margin-top: 100px;
+} */
+
+/* Header container styles */
+.header-container{
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.title-container{
+	padding-top: 50px;
+	padding-left: 50px;
+	text-align: center;
+	display: inline-block;
+}
+
+.header-container h1{
+	font-size: 70px;
+	text-align: center;
+}
+
+.header-container button{
+	border: 1px solid black;
+	padding: 5px 28px;
+}
+
+.header-container img{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 50px;
+}
