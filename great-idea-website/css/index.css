@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -69,6 +71,11 @@ body{
 	margin: 0 auto;
 }
 
+/* STRETCH GOAL: Adding new font from google fonts (Import at top) */
+p{
+	font-family: 'Gayathri', sans-serif;
+}
+
 /* Nav Bar Styles */
 .nav-bar{
 	width: 100%;
@@ -77,11 +84,16 @@ body{
 
 .nav-bar a{
 	display: inline-block;
-	width: 13%;
+	width: 12%;
 	margin: 0 auto;
 	text-decoration: none;
 	color: lightgray;
 	vertical-align: middle;
+}
+
+/* STRETCH GOAL: Add hover effects to buttons or nav items */
+.nav-bar a:hover{
+	text-decoration: underline;
 }
 
 /* Header Content Styles*/
@@ -109,9 +121,18 @@ body{
 	font-size: 50px;
 }
 
+/* STRETCH GOAL: Adding CSS Animations */ 
 .title-container button{
 	border: 1px solid black;
 	padding: 5px 7%;
+	text-align: center;
+	
+}
+
+.title-container button:hover{
+	transition-duration: 1s;
+	background-color: black;
+	color: white;
 }
 
 /* Body Content Styles */
