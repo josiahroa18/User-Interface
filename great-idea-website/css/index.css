@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,7 +51,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +66,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* STRETCH GOAL: Adding new font from google fonts (Import at top) */
+p{
+	font-family: 'Gayathri', sans-serif;
+}
+
+/* Nav Bar Styles */
+.nav-bar{
+	width: 100%;
+	margin: 30px 0;
+}
+
+.nav-bar a{
+	display: inline-block;
+	width: 12%;
+	margin: 0 auto;
+	text-decoration: none;
+	color: lightgray;
+	vertical-align: middle;
+}
+
+/* STRETCH GOAL: Add hover effects to buttons or nav items */
+.nav-bar a:hover{
+	text-decoration: underline;
+}
+
+/* Header Content Styles*/
+.header-content{
+	width: 100%;
+	margin: 30px 0;
+}
+
+.title-container, .header-content img{
+	display: inline-block;
+	margin: 0 auto;
+	width: 45%;
+	vertical-align: middle;
+}
+
+.header-content img{
+	margin-left: 9%;
+}
+
+.title-container{
+	text-align: center;
+}
+
+.title-container h1{
+	font-size: 50px;
+}
+
+/* STRETCH GOAL: Adding CSS Animations */ 
+.title-container button{
+	border: 1px solid black;
+	padding: 5px 7%;
+	text-align: center;
+	
+}
+
+.title-container button:hover{
+	transition-duration: 1s;
+	background-color: black;
+	color: white;
+}
+
+/* Body Content Styles */
+.top-section, .bottom-section{
+	margin: 30px 0;
+}
+
+.top-section .content p, .bottom-section .content p{
+	line-height: 1.5;
+}
+
+.top-section .content{
+	display: inline-block;
+	width: 45%;
+}
+
+.displace-top{
+	margin-left: 9%;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.bottom-section .content{
+	display: inline-block;
+	width: 30%;
+}
+
+.displace-bottom{
+	margin-left: 4%;
+}
+
+/* Footer styles */
+footer{
+	margin: 30px 0;
+}
+
+footer p a{
+	display: inline-block;
+	margin: 5px 0;
+}
+
+.copyright{
+	margin: 30px 0;
+	text-align: center;
+}
+
